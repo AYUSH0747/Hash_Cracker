@@ -33,7 +33,7 @@ cargo run 0bb09d80600eec3eb9d7793a6f859bedde2a2d83899b70bd78e961ed674b32f4
 
 ## Customization
 ### Password List
-The Hash Cracker comes with a pre-generated list of 1 million common passwords stored in the ***'passwordlist.txt'*** file. However, you can customize this list according to your needs. You can replace the contents of ***'passwords.txt'*** with your own list of passwords, ensuring each password is on a separate line.
+The Hash Cracker comes with a pre-generated list of 1 million common passwords stored in the ***'passwordlist.txt'*** file. However, you can customize this list according to your needs. You can replace the contents of ***'passwordlist.txt'*** with your own list of passwords, ensuring each password is on a separate line.
 
 ### Performance Considerations
 Please note that time required to crack a hash depends on various factors, including the processing power of your system, and the size of the password list. However even on a low-end system, it can check ***10,000 passwords in less than 10 seconds***. If you find the default list of passwords insufficent or want to improve the cracking speed consider using a larger, more comprehensive password list.
