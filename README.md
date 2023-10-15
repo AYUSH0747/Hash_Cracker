@@ -7,7 +7,7 @@ To get started with the Hash Cracker, follow these steps:
 1. Clone the repository or download the Hash Cracker source code.
 2. Ensure you have a compatible Rust environment installed.
 3. Review the ***'passwordlist.txt'*** file. It contains a list of 1 million passwords that will be used for cracking.
-   > Note: You can only modify or replace this file with your custom list of passwords if desired.
+   > Note: You can also modify or replace this file with your custom list of passwords if desired.
 4. To run the Hash Cracker use the following command:
 ```
 cargo run <wanted SHA256 hash>
